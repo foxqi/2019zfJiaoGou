@@ -41,12 +41,29 @@
 ![avatar](img/vue/vue18_filters2.jpg)
 ![avatar](img/vue/vue18_filters3.jpg)
 
+ - 7.vue的监听属性：computer与watch区别
 
+![avatar](img/vue/vue19_computedAmethods1.jpg)
+![avatar](img/vue/vue19_computedAmethods2.jpg)
+![avatar](img/vue/vue19_computedAmethods3.jpg)
+![avatar](img/vue/vue19_computedAmethods4.jpg)
+![avatar](img/vue/vue19_computedAmethods5.jpg)
 
+- 7.vue的动画：animate
 
+![avatar](img/vue/vue20_animate1.jpg)
+![avatar](img/vue/vue20_animate2.jpg)
+![avatar](img/vue/vue20_animate3.jpg)
+![avatar](img/vue/vue20_animate4.jpg)
+![avatar](img/vue/vue20_animate5.jpg)
+![avatar](img/vue/vue20_animate6.jpg)
+![avatar](img/vue/vue20_animate7.jpg)
+![avatar](img/vue/vue20_animate8.jpg)
+![avatar](img/vue/vue20_animate9.jpg)
+![avatar](img/vue/vue20_animate10.jpg)
+![avatar](img/vue/vue20_animate11.jpg)
 
+- 7.用vue写的搜索出现内容效果
 
-
-
-
-
+![avatar](img/vue/vue21_more1.jpg)
+![avatar](img/vue/vue21_more1.jpg)
