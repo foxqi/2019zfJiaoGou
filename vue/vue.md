@@ -49,7 +49,7 @@
 ![avatar](img/vue/vue19_computedAmethods4.jpg)
 ![avatar](img/vue/vue19_computedAmethods5.jpg)
 
-- 7.vue的动画：animate
+ - 8.vue的动画：animate
 
 ![avatar](img/vue/vue20_animate1.jpg)
 ![avatar](img/vue/vue20_animate2.jpg)
@@ -63,7 +63,7 @@
 ![avatar](img/vue/vue20_animate10.jpg)
 ![avatar](img/vue/vue20_animate11.jpg)
 
-- 7.用vue写的搜索出现内容效果
+ - 9.用vue写的搜索出现内容效果
 
 ![avatar](img/vue/vue21_more1.jpg)
 ![avatar](img/vue/vue21_more1.jpg)
