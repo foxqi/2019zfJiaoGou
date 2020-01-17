@@ -180,6 +180,8 @@ Fn.prototype.getX=function () {
 let f =new Fn; //Fn is not a constructor*/
 
 
+/*
+1. each
 let arr=[10,20,30,'AA',40,85],
     obj={'p':'a'};
 
@@ -209,11 +211,21 @@ arr = arr.each(function (item,index) {
     return item * 10;
 },obj)
 
-console.log(arr)
+console.log(arr)*/
 //得出arr=[100,200,300,'AA',40]
 
 
+/*
+* 2.replace重写这个方法，实现和内置一模一样的效果（只需要考虑replace([reg],[callback]) 这种传参格式的处理）
+*(此题是作业，但是不会)
+*
+* */
 
+// let str='zhufeng2019zhufeng2029';
+// str = str.replace(/zhufeng/g,function (...arg) {
+//    //arg中存储了每一次大正则匹配的信息和小分组匹配的信息
+//     return '@';//=>返回的是啥把当前正在匹配的内容替换成啥
+// });
 
 
 
