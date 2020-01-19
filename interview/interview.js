@@ -136,7 +136,7 @@ document.body.onclick=function () {
 }*/
 
 
-//回调函数：把一个函数B作为实参传递给另外一个函数A，函数A在执行的时候，可以把传递进来的函数B去执行（执行N次，可传值，可改this，）
+//4.回调函数：把一个函数B作为实参传递给另外一个函数A，函数A在执行的时候，可以把传递进来的函数B去执行（执行N次，可传值，可改this，）
 //each原理
 /*function each(arr,callBack) {
     // => callBack:function(item,index){}
@@ -216,7 +216,7 @@ console.log(arr)*/
 
 
 /*
-* 2.replace重写这个方法，实现和内置一模一样的效果（只需要考虑replace([reg],[callback]) 这种传参格式的处理）
+* 5.replace重写这个方法，实现和内置一模一样的效果（只需要考虑replace([reg],[callback]) 这种传参格式的处理）
 *(此题是作业，但是不会)
 *
 * */
@@ -226,6 +226,170 @@ console.log(arr)*/
 //    //arg中存储了每一次大正则匹配的信息和小分组匹配的信息
 //     return '@';//=>返回的是啥把当前正在匹配的内容替换成啥
 // });
+
+
+/*如何把一个字符串的大小写取反（大写变小写，小写变大写），例如‘AbC’变成‘aBc’*/
+
+/*let str="zhufengPEixun的周老师很帅！吁*100！haha";
+str =str.replace(/[a-zA-Z]/g,content=>{
+    //=>content:每一次正则匹配的结果
+    //验证是否为大写字母：把字母转换成大写后和之前是否一样，如果一样，之前也是大写的；在ASCII表中找到大写字母的取值范围进行判断（65-90）；
+    // content.toUpperCase()===content
+    // content.charCodeAt()>=65 && content.charCodeAt()<=90
+
+   return content.toUpperCase()===content?content.toLowerCase():content.toUpperCase();
+
+
+});
+console.log(str)*/
+
+
+/*6..实现一个字符串匹配算法，从字符串s中，查找是否存在字符串T，若存在返回所在位置，不存在返回-1，（如果不能基于indexOf/includes等内置的方法，你会如何处理呢？）*/
+/*相当于自己写indexOf*/
+// ~function () {
+    /*
+    * 思路一：循环元素字符串中的每一项，让每一项从当前位置向后截取T.length个字符，然后和T进行比较，如果不一样继续循环；如果一样返回当前索引即可（结束循环）；
+    * */
+/*    function myIndexOf(T) {
+        //=>this：S
+        let lenT=T.length,
+            lenS=this.length,
+            res=-1;
+        if(lenT>lenS) return -1;
+        for(let i=0;i<=lenS-lenT;i++){
+            if (this.substr(i,lenT)===T){
+                res=i;
+                break
+            }
+        }
+         return res;
+    }*/
+
+    //思路二：正则处理
+/*    function myIndexOf(T) {
+        //=>this：S
+        let reg=new RegExp(T),
+            res=reg.exec(this);
+        return res === null?-1:res.index;
+    }
+    String.prototype.myIndexOf=myIndexOf;
+}();
+let S="zhufengpeixun";
+let T="pei";
+
+console.log(S.myIndexOf(T));*/
+
+/*7..输出下面代码运行结果*/
+//example 1
+// var a={},b='123',c=123;
+// a[b]='b';
+// a[c]='c';
+// console.log(a[b]);
+
+/*
+* 上面的题真坑，是a['123']='b'和a[123]='c'的比较，不是a[b],a[c]
+* */
+
+
+
+//example 2
+// var a={},b=Symbol('123'),c=Symbol(123);
+// a[b]='b';
+// a[c]='c';
+// console.log(a[b]);
+
+/*
+* 上面的题  Symbol是es6中新增的数据类型  typeof Symbol('123') === "Symbol"，它创建出来的值是唯一值， Symbol('123')===Symbol('123')为false
+* */
+
+
+//example 3
+// var a={},b={key:'123'},c={key:'456'};
+// a[b]='b';
+// a[c]='c';
+// console.log(a[b]);
+/*
+* 上面的题
+* 1.对象的属性名不能是一个对象（遇到对象属性名，会默认转换为字符串）
+* obj={}  arr=[12,23]   obj[arr]="珠峰"   obj=>{"12,23":"珠峰"}
+* 2.普通对象.toString()  调取的是Object.prototype上的方法（这个方法是用来检测数据类型的）
+* obj={}   Object.toString() =>  "[object Object]"
+* */
+
+
+/*7.在输入框中如何判断输入的是一个正确的网址，例如：用户输入一个字符串，验证是否符合URL网址的格式*/
+
+/*let str="http://www.zhufengpeixun.cn/index.html?lx=1&from=wx#video";
+let reg=/^(?:(http|https|ftp):\/\/)?((?:[\w-]+\.)+[a-z0-9]+)((?:\/[^/?#]*)+)?(\?[^#]+)?(#.+)?$/i;
+console.log(reg.exec(str))*/
+/*=>URL格式
+1.协议://  http/https/ftp
+2.域名
+www.zhufengpeix.cn
+zhufengpeixun.cn
+kbs.sports.qq.com
+kbs.sports.qq.com.cn
+3.请求路径
+  /
+  /index.html
+ /stu/index.html
+ /stu/
+
+ 4.问号传参
+ ?xxx=xxx&xxx
+ 5.哈希值
+ #xxx
+
+ */
+
+
+/*8.*/
+/*function Foo() {
+    Foo.a=function () {
+        console.log(1)
+    };
+    this.a=function () {
+        console.log(2)
+    }
+}
+//=》把Foo当做类，在原型上设置实例公有的属性方法  => 实例.a()
+Foo.prototype.a=function () {
+    console.log(3)
+};
+//=>把Foo当做普通对象设置私有的属性方法
+Foo.a=function () {
+    console.log(4)
+};
+Foo.a();
+let obj=new Foo();//它虽然创建个实例，但是也会将该函数运行
+obj.a();//先找私有，再找公有
+Foo.a();*/
+
+
+/*9.编写代码实现图片的懒加载
+*
+* 为什么要实现图片懒加载
+*   1.是前端性能优化的重要方案，
+*     +通过图片或者数据的延迟加载，我们可以加快页面渲染的速度，让第一次打开页面的速度变快
+*     + 只有滑动到某个区域，我们才加载真实的图片，这样也可以节省加载的流量
+*
+*   2. 处理方案
+*     + 把所有需要延迟加载的图片用一个盒子包起来，设置宽高和默认占位图
+*     + 开始让所有的Img的src为空，把真实图片的地址放到Img的自定义属性上
+*     + 等待所有其他资源都加载完成后，我们再开始加载图片
+*     + 对于很多图片，需要当页面滚动的时候，当前图片完全显示出来后在加载真实图片
+*     + ...
+* */
+
+
+
+
+
+
+
+
+
+
 
 
 
