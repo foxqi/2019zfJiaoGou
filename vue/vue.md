@@ -67,3 +67,103 @@
 
 ![avatar](img/vue/vue21_more1.jpg)
 ![avatar](img/vue/vue21_more1.jpg)
+
+
+
+#### vue的应用
+ - 响应式的数据变化，什么样的数据可以发生变化
+ - vue中的指令14个
+ - 自定义指令 自定义过滤器
+ - computed watch methods
+ - vue动画 在js中如何使用动画 用css如何实现动画
+
+
+ ### vue的组件应用
+ - vue的树组件
+ - vue的日历组件
+ - 表单组件
+ - 扩展表格组件
+
+ ### 组件的应用
+ - 组件的生命周期，每个声明周期 做什么内容
+ - 组件间的通信 props events parent children ref eventBus vuex
+ - render方法 element-ui iview render的方法的使用
+
+ - 10.生命周期
+
+![avatar](img/vue/vue22_lefeCycle1.jpg)
+![avatar](img/vue/vue22_lefeCycle2.jpg)
+
+ - 11.组件 component ：复用，方便维护，拆分方便，每个组件间作用域是隔离的，组件间互不干扰，组件间的数据传递，组件就是一个自定义的标签，可以代表一些特定的功能，主要封装  css  html  js   .vue文件
+ 
+![avatar](img/vue/vue23_component1.jpg)
+![avatar](img/vue/vue23_component2.jpg)
+![avatar](img/vue/vue23_component3.jpg)
+![avatar](img/vue/vue23_component4.jpg)
+![avatar](img/vue/vue23_component5.jpg)
+![avatar](img/vue/vue23_component6.jpg)
+![avatar](img/vue/vue23_component7.jpg)
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
