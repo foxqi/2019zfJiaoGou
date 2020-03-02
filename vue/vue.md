@@ -103,22 +103,66 @@
 ![avatar](img/vue/vue23_component5.jpg)
 ![avatar](img/vue/vue23_component6.jpg)
 ![avatar](img/vue/vue23_component7.jpg)
+![avatar](img/vue/vue23_component8.jpg)
+![avatar](img/vue/vue23_component9.jpg)
 
+ - 12.插槽 solt
+![avatar](img/vue/vue24_slot1.jpg)
+![avatar](img/vue/vue24_slot2.jpg)
+![avatar](img/vue/vue24_slot3.jpg)
+![avatar](img/vue/vue24_slot4.jpg)
+
+ - 13.provide(在根组件中注入数据)&inject(在子组件中消费数据)
+![avatar](img/vue/vue25_inject1.jpg) 
+ 
+ - 14.ref
+ ![avatar](img/vue/vue26_ref1.jpg)
+ ![avatar](img/vue/vue26_ref2.jpg)
+ ![avatar](img/vue/vue26_ref3.jpg)
+ 
+ - 15.brother
+ ![avatar](img/vue/vue27_brother1.jpg)
+ 
+ - 16.input
+ ![avatar](img/vue/vue27_input1.jpg)
+ 
+ - 17.vuecli安装
+ ![avatar](img/vue/vue28_vuecli.jpg) 
+ 
+   - vuecli应用，iview应用，组件的应用讲解
+   
+ - vue的日期插件，手写了一个类似的日历插件，里面有些如何获取四十二天后的方法  
  
  
  
  
+ ### vue-router  部分配置截图
+ 
+  ![avatar](img/vue/vueRouter1.jpg) 
+  ![avatar](img/vue/vueRouter2.jpg) 
+  ![avatar](img/vue/vueRouter3.jpg) 
+  ![avatar](img/vue/vueRouter4.jpg) 
  
  
+ ### 单元测试
  
- 
- 
- 
- 
- 
- 
- 
- 
+- mocha-chai用法
+ ![avatar](img/vue/lessonTest1.jpg) 
+ ![avatar](img/vue/lessonTest2.jpg) 
+ ![avatar](img/vue/lessonTest3.jpg) 
+ ![avatar](img/vue/lessonTest4.jpg) 
+ ![avatar](img/vue/lessonTest5.jpg) 
+ ![avatar](img/vue/lessonTest6.jpg) 
+ ![avatar](img/vue/lessonTest7.jpg) 
+ ![avatar](img/vue/lessonTest8.jpg) 
+ ![avatar](img/vue/lessonTest9.jpg) 
+ ![avatar](img/vue/lessonTest9-1.jpg) 
+ ![avatar](img/vue/lessonTest10.jpg) 
+ ![avatar](img/vue/lessonTest11.jpg) 
+- https://github.com/axios/moxios
+
+- jest用法
+ ![avatar](img/vue/lessonTest12.jpg) 
  
  
  
