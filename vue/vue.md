@@ -10,7 +10,7 @@
 
  - 3.vue的指令
 
-![avatar](img/vue/vue7.jpg)
+
 ![avatar](img/vue/vue8.jpg)
 ![avatar](img/vue/vue9.jpg)
 ![avatar](img/vue/vue10.jpg)
