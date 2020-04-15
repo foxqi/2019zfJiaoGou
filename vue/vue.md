@@ -171,6 +171,34 @@
  
  
  
+### vue组件数据传递 
+ 
+- 父子组件通信
+  父->子props，子->父 $on、$emit （发布订阅）
+ 获取父子组件实例的方式 $parent、$children
+- Ref 获取实例的方式调用组件的属性或者方法
+- 在父组件中提供数据子组件进行消费，Provide、inject 官方不推荐使用，但是写组件库时很常用
+
+- 兄弟组件通信
+- Event Bus 实现跨组件通信 Vue.prototype.$bus = new Vue
+  - eventBus 定义到了全局上，如果一个人发布一个时间，如果有同名的会全部触发，在大型项目有重名的，不管是儿子还是父亲就会全部触发，所以一般在小型项目上使用
+- Vuex
+
+- 跨级组件通信
+  - Vuex
+  - $attrs、$listeners
+  ```
+        <!-- $attrs 表示属性的集合-->
+        <!-- $listeners  表示的是方法的集合-->
+        <!-- v-bind  属性-->
+        <!-- v-on  方法-->
+        <!--这个方法就可以代替props-->
+        <Grandson2 v-bind="$attrs" v-on="$listeners"></Grandson2>
+  ```
+  - Provide、inject
+ 
+ 
+ 
  
  
  

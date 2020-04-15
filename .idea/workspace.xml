@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cc665d26-38e9-433b-9a09-a167434a2fb9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020面试题.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,26 +32,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/vue.md">
+      <file leaf-file-name="vue-goshouNote.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="275">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="200">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue-goshouNote.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Son2.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="65" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="8" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parent.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -71,6 +91,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/vue.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="492">
+                <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -100,8 +132,11 @@
         <option value="$PROJECT_DIR$/interview/delayimg.html" />
         <option value="$PROJECT_DIR$/interview/interview.js" />
         <option value="$PROJECT_DIR$/interview.md" />
-        <option value="$PROJECT_DIR$/vue/vue.md" />
         <option value="$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md" />
+        <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" />
+        <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" />
+        <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" />
+        <option value="$PROJECT_DIR$/vue/vue.md" />
       </list>
     </option>
   </component>
@@ -114,9 +149,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="418" />
-    <option name="width" value="1456" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="928" />
+    <option name="width" value="990" />
     <option name="height" value="897" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -153,6 +188,13 @@
               <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
               <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
               <item name="VUE-COMPONENT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
+              <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
+              <item name="VUE-COMPONENT" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,17 +268,19 @@
       <workItem from="1583762885650" duration="1971000" />
       <workItem from="1584283154421" duration="1008000" />
       <workItem from="1586152259488" duration="4283000" />
+      <workItem from="1586783438709" duration="5498000" />
+      <workItem from="1586789678321" duration="49000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69759000" />
+    <option name="totallyTimeSpent" value="75306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="418" y="0" width="1456" height="897" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21347518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0084566595" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -262,33 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9475">
-            <caret line="379" column="4" selection-start-line="379" selection-start-column="4" selection-end-line="379" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview/interview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20650">
@@ -685,21 +702,45 @@
     <entry file="file://$PROJECT_DIR$/vue/img/vue/lessonTest7.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue.md">
+    <entry file="file://$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <first_editor relative-caret-position="200">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md">
+    <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="65" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <first_editor relative-caret-position="492">
+            <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
