@@ -128,8 +128,33 @@
  
  - 17.vuecli安装
  ![avatar](img/vue/vue28_vuecli.jpg) 
+  - vuecli应用，iview应用，组件的应用讲解
+  
+  
+- npm install -g @vue/cli ??和图片不一致  
+![avatar](vueRouter/img/配置vuecli1.jpg) 
+![avatar](vueRouter/img/配置vuecli2.jpg) 
+![avatar](vueRouter/img/配置vuecli3.jpg) 
+![avatar](vueRouter/img/配置vuecli4.jpg) 
+![avatar](vueRouter/img/配置vuecli5.jpg) 
+![avatar](vueRouter/img/配置vuecli6.jpg) 
+- 之后 进入项目，yarn serve
+- 最后会给访问路径，访问即可
  
-   - vuecli应用，iview应用，组件的应用讲解
+ assets  -- 图片资源，公共样式
+ components  -- 放组件的
+ App.vue -- 里面有模板，脚本和样式
+ main.js -- 渲染模块
+ 
+- 自己要建一个vue.config.js文件，来自己配置webpack 
+![avatar](vueRouter/img/vuecli配置webpack1.jpg) 
+![avatar](vueRouter/img/vuecli配置webpack2.jpg) 
+![avatar](vueRouter/img/vuecli配置webpack3.jpg) 
+
+- yarn add axios 安装axios
+
+-  打包 npm run build
+ 
    
  - vue的日期插件，手写了一个类似的日历插件，里面有些如何获取四十二天后的方法  
  
@@ -142,6 +167,12 @@
   ![avatar](img/vue/vueRouter2.jpg) 
   ![avatar](img/vue/vueRouter3.jpg) 
   ![avatar](img/vue/vueRouter4.jpg) 
+ 
+ ###### 老师课件同步代码
+ ![avatar](vueRouter/img/vueRouter的小项目构图.jpg)
+ - 1.先安装 yarn add vue-router
+ 
+ 
  
  
  ### 单元测试

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc665d26-38e9-433b-9a09-a167434a2fb9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue-router-apply/src/assets/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue-router-apply/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,91 +20,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="interview.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview/interview.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20650">
-              <caret line="827" column="2" selection-start-line="809" selection-start-column="3" selection-end-line="827" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vue-goshouNote.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/vue-goshouNote.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Son2.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="65" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="8" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parent.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interview.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="9475">
-                <caret line="379" column="4" selection-start-line="379" selection-start-column="4" selection-end-line="379" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interview/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="vue.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/vue.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="492">
-                <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+              <first_editor relative-caret-position="321">
+                <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/vue.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/src/assets/common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/src/components/HelloWorld.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vuecli配置webpack1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vueRouter/img/vuecli配置webpack1.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -113,12 +79,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>vuex</find>
+      <find>rou</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -136,6 +104,11 @@
         <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/main.js" />
         <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue" />
         <option value="$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vue/vue-router-apply/server.js" />
+        <option value="$PROJECT_DIR$/vue/vue-router-apply/src/assets/common.less" />
+        <option value="$PROJECT_DIR$/vue/vue-router-apply/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/vue/vue-router-apply/vue.config.js" />
         <option value="$PROJECT_DIR$/vue/vue.md" />
       </list>
     </option>
@@ -146,13 +119,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/vue/vue-router-apply/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vue/vueRouter/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="928" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/vue/vue-router-apply/package.json" />
+      <path value="$PROJECT_DIR$/vue/vueRouter/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="990" />
-    <option name="height" value="897" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,32 +157,61 @@
             <path>
               <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router-apply" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
-              <item name="VUE-COMPONENT" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router-apply" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
               <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue-gaoshou" type="462c0819:PsiDirectoryNode" />
-              <item name="VUE-COMPONENT" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router-apply" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router-apply" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vue-router-apply" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vueRouter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2019zfJiaoGou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2019zfJiaoGou" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="vueRouter" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,24 +281,25 @@
       <workItem from="1586152259488" duration="4283000" />
       <workItem from="1586783438709" duration="5498000" />
       <workItem from="1586789678321" duration="49000" />
+      <workItem from="1586952703983" duration="7484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75306000" />
+    <option name="totallyTimeSpent" value="82790000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0084566595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15010571" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35174745" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,70 +318,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interview/interview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20650">
-          <caret line="827" column="2" selection-start-line="809" selection-start-column="3" selection-end-line="827" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9475">
-            <caret line="379" column="4" selection-start-line="379" selection-start-column="4" selection-end-line="379" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4300">
-            <caret line="172" column="1" lean-forward="true" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/interview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20650">
-          <caret line="827" column="2" selection-start-line="809" selection-start-column="3" selection-end-line="827" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="9475">
-            <caret line="379" column="4" selection-start-line="379" selection-start-column="4" selection-end-line="379" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/vue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -673,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/interview/interview.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20650">
+        <state relative-caret-position="333">
           <caret line="827" column="2" selection-start-line="809" selection-start-column="3" selection-end-line="827" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -725,22 +673,63 @@
     <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Son2.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="65" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="8" selection-end-column="65" />
+          <caret line="8" column="65" selection-start-line="3" selection-start-column="7" selection-end-line="8" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue-gaoshou/VUE-COMPONENT/components/Parent.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="85" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="85" />
+          <caret line="9" column="85" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vueRouter/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vueRouter/img/vuecli配置webpack1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/src/assets/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-router-apply/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/vue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="492">
-            <caret line="190" column="30" lean-forward="true" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="30" />
+          <first_editor relative-caret-position="321">
+            <caret line="156" column="1" lean-forward="true" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
