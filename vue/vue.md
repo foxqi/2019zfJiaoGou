@@ -172,7 +172,7 @@
  ![avatar](vueRouter/img/vueRouter的小项目构图.jpg)
  - 1.先安装 yarn add vue-router
  
- 
+ -  使用 NPM 安装Vue并创建项目https://www.cnblogs.com/trnanks/p/10987248.html 
  
  
  ### 单元测试
@@ -191,7 +191,31 @@
  ![avatar](img/vue/lessonTest10.jpg) 
  ![avatar](img/vue/lessonTest11.jpg) 
 - https://github.com/axios/moxios
+##### 前端常见问题
+- 修改js模块功能，其他模块也受影响，很难快速定位bug
+- 多人开发代码越来越难以维护，不方便迭代，代码无法重构
 
+###### 什么是单元测试
+- 单元测试就是测试最小单元（一个方法，一个组件）
+
+###  与老师同步的单元测试视频代码
+
+- 1.先安装一个node在9版本以上的node
+- 如果觉得下载速度慢的话，可以先安装淘宝镜像
+  - npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+- 2.npm install yarn  要安装yarn
+- 3.npm install -g @vue/cli  要安装vue-cli的3版本项目
+- 4.vue create mocha-vue   创建一个叫mocha-vue的项目
+- 5. 项目配置选项，如图
+  ![avatar](unitTesting/img/创建项目1.jpg) 
+  ![avatar](unitTesting/img/创建项目2.jpg) 
+  ![avatar](unitTesting/img/创建项目3.jpg) 
+  ![avatar](unitTesting/img/创建项目4.jpg) 
+  ![avatar](unitTesting/img/创建项目5.jpg) 
+  ![avatar](unitTesting/img/创建项目6.jpg) 
+  ![avatar](unitTesting/img/创建项目7.jpg) 
+  ![avatar](unitTesting/img/创建项目8.jpg) 
 - jest用法
  ![avatar](img/vue/lessonTest12.jpg) 
  
