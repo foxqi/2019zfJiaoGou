@@ -158,7 +158,20 @@
    
  - vue的日期插件，手写了一个类似的日历插件，里面有些如何获取四十二天后的方法  
  
- 
+##### 基于vue-cli编写组件
+ - 小球的滚动组件 
+ ```
+   //思路
+   // 组件的id问题  _uid
+   //属性问题  校验 -> 计算属性
+   //双向通信 props+emit  /v-model  /.sync
+   //数据的绑定问题  $refs 拿到组件内部的方法  来调用组件中的方法
+   主要代码在vue-router-apply的components里的ScorllBall
+ ```
+ - 部分老师截图
+ ![avatar](vueRouter/img/vue写小球滚动demo1.jpg) 
+ ![avatar](vueRouter/img/vue写小球滚动demo2.jpg) 
+ ![avatar](vueRouter/img/vue写小球滚动demo3.jpg) 
  
  
  ### vue-router  部分配置截图
@@ -221,12 +234,13 @@
  
  
  
+# 语法糖 
+ - v-model=:value +input
+ - :xxx.sync="xxx" = :xxx =this.$emit('update:xxx')
  
+# 面试题 
  
- 
- 
- 
-### vue组件数据传递 
+### 1.vue组件数据传递 
  
 - 父子组件通信
   父->子props，子->父 $on、$emit （发布订阅）
@@ -252,16 +266,31 @@
   ```
   - Provide、inject
  
+ #### 2.defer & async/preload & prefetch
+ - defer和async在网络读取的过程中都是不解析
+ - defer是有顺序依赖的，async只要脚本加载完后就会执行
+ - preload可以对当前页面所需的脚本、样式等资源进行预加载
+ - prefetch加载的资源一般不是用于当前页面的，是未来很可能用到的这样的一些资源 
+```
+  defer async的区别
+- 同步：都是异步加载js的
+- 异步
+  - defer虽然是异步，但是是有序加载js的
+  - async虽然是异步，但是是无序加载js的，谁加载的快，谁先执行
+
+## preload prefetch的区别
+
+- preload预加载，预加载这些资源，在去解析html，相当于也是异步的
+- prefetch 浏览器空闲的时候预抓取，在点击的时候就不需要加载了，但是它太多可能浏览器会崩溃 
+ 
+- webpack懒加载，不去切换页面就不会加载
+ 
+ ```
+
  
  
- 
- 
- 
- 
- 
- 
- 
- 
+ ### _uid
+ - Vue 组件的_uid来唯一标识（每个Vue实例都会有一个递增的id，可以通过this._uid获取
  
  
  
