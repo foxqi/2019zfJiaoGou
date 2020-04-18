@@ -159,7 +159,7 @@
  - vue的日期插件，手写了一个类似的日历插件，里面有些如何获取四十二天后的方法  
  
 ##### 基于vue-cli编写组件
- - 小球的滚动组件 
+ - 1.小球的滚动组件 
  ```
    //思路
    // 组件的id问题  _uid
@@ -172,8 +172,8 @@
  ![avatar](vueRouter/img/vue写小球滚动demo1.jpg) 
  ![avatar](vueRouter/img/vue写小球滚动demo2.jpg) 
  ![avatar](vueRouter/img/vue写小球滚动demo3.jpg) 
- 
- 
+ - 2. 安装vue-router
+   - yarn add vue-router
  ### vue-router  部分配置截图
  
   ![avatar](img/vue/vueRouter1.jpg) 
@@ -182,9 +182,61 @@
   ![avatar](img/vue/vueRouter4.jpg) 
  
  ###### 老师课件同步代码
- ![avatar](vueRouter/img/vueRouter的小项目构图.jpg)
  - 1.先安装 yarn add vue-router
- 
+   - 哈希/history
+     - 哈希，如https://www.baidu.com/#a，#a就为哈希值，一有哈希值访问路径就会发生变化
+     - history:h5的api“histroy.pushState({},null,'/a'),如果用vuecli脚手架的时候，如果这样写路径不存在，它会默认定位到首页
+      
+ ![avatar](vueRouter/img/vueRouter的小项目构图.jpg)
+   - 创建views，放页面
+   - 创建router文件，放路由的配置
+   - 在main.js中引入
+   - 在router文件夹中创建 routes.js文件，存放映射表，也就是存放所有路由的数组，在存放到 router/index.js 
+   - 安装一个bootstrap@3样式库，为了快速写样式        
+- 小知识点
+   - 1.router-link里的属性
+     - :to="{name:'home'}"和:to="{path:'/home'}"，他们基本上是差不多的，但用name这个命名路由的时候是不能被渲染的，所以要用path
+     - tag="span":router-link里面默认显示a标签，这个属性是改为你想要的标签  
+   - 2.路由中children中的path是可以写成'/user/add'：这是从根里有开始找。但是不能写成'/add'：这就是直接找根路由的add，所以可以直接要写成'add'     
+   - 3.当组件切换时
+       - 会触发离开的路由的钩子函数: beforeRouteLeave(to,from,next) 从哪来，到哪去，往下走的三个参数
+       - 渲染完成后，会进入到新的页面里，组件内部，会触发一个方法：beforeRouteEnter(to,from,next) 从哪来，到哪去，往下走的三个参数，  此方法中不能拿到this，因为还没进来呢
+       - 当属性变化时，并没有重新加载组件beforeRouteUpdate(to,from,next) 从哪来，到哪去，往下走的三个参数，
+       - beforeEnter这个在routes.js里面配置的，会先走这个，在走小组件里的beforeRouteEnter
+       - 在main.js里面配置beforeEach（全局的）这是个全局属性这个是最先走的，在会走beforeEnter（局部的），再走beforeRouteEnter（组件的）
+       - 当前路由解析完成后会跳转的钩子beforeResolve（组件解析的）,也是在main.js里配置，这是beforeRouteEnter之后走的
+       - 全部都走完的钩子afterEach（当前进入完毕），这是最后走的
+      - 老师写的 当组件切换时
+       ![avatar](vueRouter/img/vueRouter生命周期.jpg) 
+       ![avatar](vueRouter/img/vueRouter生命周期（官网）.jpg) 
+       
+```javascript
+           //当组件都渲染完成之后，才会拿到这个东西，会调用当前beforeRouteEnter
+              next(vm=>{
+                  //获取实例
+                  console.log(vm)
+              });
+              // main.js里面配置
+              router.beforeEach((to,form,next)=>{
+                  console.log('全部');
+                  next()
+              });
+              // main.js里面配置
+              router.beforeResolve((to,form,next)=>{
+                  console.log('解析');
+                  next()
+              })
+```
+
+       
+   - 4.$router存的方法，$route存的属性  
+      - this.$router.push('/user/list');  跳转页面
+      
+      - this.$route.query 查询字符串
+        - this.$route.query.id 获取id（这个获取id是在<router-link to="/user/detail?id=1">这样写的）//问号传递参数
+        - this.$route.params.id 获取id(这个获取id是在router-link里面<router-link to="/user/detail/2">这样写的) //通过路由的路径传递参数
+      
+               
  -  使用 NPM 安装Vue并创建项目https://www.cnblogs.com/trnanks/p/10987248.html 
  
  

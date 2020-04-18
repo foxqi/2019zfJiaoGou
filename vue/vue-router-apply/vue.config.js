@@ -17,7 +17,8 @@ module.exports={
     //可以获取到webpack配置  在增加一些自己的逻辑
     chainWebpack:config=>{
        //配置目录别名，别名叫+（加号就是代表src,以后引用的时候，就可以写成 import HelloWorld from '+/HelloWorld.vue'）
-       config.resolve.alias.set('+',path.resolve(__dirname,'src'))
+       config.resolve.alias.set('+',path.resolve(__dirname,'src/components'))
+        config.resolve.alias.set('_v',path.resolve(__dirname,'views'))
     },
     //这里面可以写扩展一些新的功能
     configureWebpack:{//webpack-merge(自己写的webpack配置和原有的合并)
